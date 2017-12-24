@@ -42,8 +42,9 @@ User:           emailaddress@domain.com
 Org:            <yourorganization>
 Space:          development
 ```
-## Step 3 : cd <spring-boot-application-directory> Note : where the manifest.yml resides
+## Step 3 : cd to spring application working directory  [Note : where the manifest.yml resides]
 ```
+spring-boot-application-in-cloud > ls
 README.md
 manifest.yml
 src
@@ -53,6 +54,7 @@ target
 ```
 ## Step 4 : cf push
 ```
+spring-boot-application-in-cloud > cf push
 Using manifest file /Users/user/workspace/createvalue/spring-boot-application-in-cloud/manifest.yml
 
 Updating app spring-boot-demo-app-cloud in org <yourorganization> / space development as emailaddress@domain.com..
@@ -82,6 +84,7 @@ state     since                    cpu      memory         disk           detail
 ```
 ## Step 5 : cf apps
 ```
+spring-boot-application-in-cloud > cf apps
 name                         requested state   instances   memory   disk   urls
 spring-boot-demo-app-cloud   started           1/1         1G       1G     spring-boot-demo-app-cloud.cfapps.io
 ```
