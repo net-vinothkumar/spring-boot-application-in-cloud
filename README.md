@@ -23,7 +23,7 @@ cf version 6.26.0+9c9a261fd.2017-04-06
 ```
 ## Step 2 : Login to cloud foundry -> cf login -a api.run.pivotal.io
 ```
-cf login -a api.run.pivotal.io
+spring-boot-application-in-cloud > cf login -a api.run.pivotal.io
 
 API endpoint: api.run.pivotal.io
 
