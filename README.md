@@ -12,10 +12,16 @@ Run
 
     http://localhost:8080
 
-##How to deploy the spring boot demo application in cloud environment ?
+## How to deploy the spring boot demo application in cloud environment ?
 
-#Step 1 : Install cloud found client tool
-#Step 2 : Login to cloud foundry -> cf login -a api.run.pivotal.io
+## Step 1 : Install cloud found client tool 
+
+Please refer https://docs.cloudfoundry.org/cf-cli/install-go-cli.html for installing cli tool.
+```
+cf version
+cf version 6.26.0+9c9a261fd.2017-04-06
+```
+## Step 2 : Login to cloud foundry -> cf login -a api.run.pivotal.io
 ```
 cf login -a api.run.pivotal.io
 
@@ -36,7 +42,7 @@ User:           emailaddress@domain.com
 Org:            <yourorganization>
 Space:          development
 ```
-#Step 3 : cd <spring-boot-application-directory> Note : where the manifest.yml resides
+## Step 3 : cd <spring-boot-application-directory> Note : where the manifest.yml resides
 ```
 README.md
 manifest.yml
@@ -45,7 +51,7 @@ SpringBoot-Thymeleaf-Example.iml
 pom.xml
 target
 ```
-#Step 4 : cf push
+## Step 4 : cf push
 ```
 Using manifest file /Users/user/workspace/createvalue/spring-boot-application-in-cloud/manifest.yml
 
@@ -74,7 +80,7 @@ Downloading go_buildpack...
 state     since                    cpu      memory         disk           details
 #0   running   2017-12-24 06:44:35 PM   162.0%   319.1M of 1G   143.2M of 1G
 ```
-#Step 5 : cf apps
+## Step 5 : cf apps
 ```
 name                         requested state   instances   memory   disk   urls
 spring-boot-demo-app-cloud   started           1/1         1G       1G     spring-boot-demo-app-cloud.cfapps.io
