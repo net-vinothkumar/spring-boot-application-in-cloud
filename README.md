@@ -1,5 +1,7 @@
 # Spring Boot Thymeleaf Demo Application - Cloud
 
+<img src="https://user-images.githubusercontent.com/30971809/34328614-dc67a4c0-e8e3-11e7-9492-273ae1892526.jpg"></img>
+
 Please ensure you have the following development tools.
 
     JDK 1.7 or later
