@@ -16,7 +16,7 @@ Run
 
 #Step 1 : Install cloud found client tool
 #Step 2 : Login to cloud foundry -> cf login -a api.run.pivotal.io
-
+```
 cf login -a api.run.pivotal.io
 
 API endpoint: api.run.pivotal.io
@@ -35,18 +35,18 @@ API endpoint:   https://api.run.pivotal.io (API version: 2.101.0)
 User:           emailaddress@domain.com
 Org:            <yourorganization>
 Space:          development
-
+```
 #Step 3 : cd <spring-boot-application-directory> Note : where the manifest.yml resides
-
+```
 README.md
 manifest.yml
 src
 SpringBoot-Thymeleaf-Example.iml
 pom.xml
 target
-
+```
 #Step 4 : cf push
-
+```
 Using manifest file /Users/user/workspace/createvalue/spring-boot-application-in-cloud/manifest.yml
 
 Updating app spring-boot-demo-app-cloud in org <yourorganization> / space development as emailaddress@domain.com..
@@ -73,8 +73,9 @@ Downloading go_buildpack...
 
 state     since                    cpu      memory         disk           details
 #0   running   2017-12-24 06:44:35 PM   162.0%   319.1M of 1G   143.2M of 1G
-
+```
 #Step 5 : cf apps
-
+```
 name                         requested state   instances   memory   disk   urls
 spring-boot-demo-app-cloud   started           1/1         1G       1G     spring-boot-demo-app-cloud.cfapps.io
+```
