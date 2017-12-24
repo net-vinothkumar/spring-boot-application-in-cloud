@@ -89,6 +89,8 @@ name                         requested state   instances   memory   disk   urls
 spring-boot-demo-app-cloud   started           1/1         1G       1G     spring-boot-demo-app-cloud.cfapps.io
 ```
 ## Congratulations - you have deployed your first spring boot application in cloud environment !!!
-```
-click here to access the spring boot application in cloud : https://spring-boot-demo-app-cloud.cfapps.io/
-```
+
+click here to access the spring boot application in cloud : 
+
+https://spring-boot-demo-app-cloud.cfapps.io/
+
