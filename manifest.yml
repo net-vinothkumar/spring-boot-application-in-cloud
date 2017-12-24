@@ -1,0 +1,6 @@
+---
+applications:
+- name: spring-boot-demo-app-cloud
+  instances: 1
+  host: spring-boot-demo-app-cloud
+  path: target/SpringBoot-Thymeleaf-Demo-Application-1.3.5.RELEASE.jar
