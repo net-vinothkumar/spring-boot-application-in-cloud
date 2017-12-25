@@ -16,7 +16,7 @@ Run
 
 ## How to deploy the spring boot demo application in cloud environment ?
 
-## Step 1 : Install cloud found client tool 
+## Step 1 : Install cloud foundry client tool 
 
 Please refer https://docs.cloudfoundry.org/cf-cli/install-go-cli.html for installing cli tool.
 ```
